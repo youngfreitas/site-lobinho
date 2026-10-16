@@ -1,0 +1,256 @@
+{
+  "images": {
+    "praia-santa-rita": {
+      "width": 1178,
+      "height": 1454,
+      "widths": [
+        480,
+        800,
+        1178
+      ],
+      "base": "/media/img/praia-santa-rita",
+      "color": "rgb(184, 200, 216)"
+    },
+    "praia-pereque-mirim": {
+      "width": 1178,
+      "height": 1451,
+      "widths": [
+        480,
+        800,
+        1178
+      ],
+      "base": "/media/img/praia-pereque-mirim",
+      "color": "rgb(72, 120, 136)"
+    },
+    "praia-lamberto": {
+      "width": 1178,
+      "height": 1445,
+      "widths": [
+        480,
+        800,
+        1178
+      ],
+      "base": "/media/img/praia-lamberto",
+      "color": "rgb(104, 136, 120)"
+    },
+    "praia-dionisia": {
+      "width": 1179,
+      "height": 1452,
+      "widths": [
+        480,
+        800,
+        1178
+      ],
+      "base": "/media/img/praia-dionisia",
+      "color": "rgb(56, 136, 120)"
+    },
+    "praia-flamengo": {
+      "width": 1178,
+      "height": 1467,
+      "widths": [
+        480,
+        800,
+        1178
+      ],
+      "base": "/media/img/praia-flamengo",
+      "color": "rgb(104, 152, 216)"
+    },
+    "praia-flamenguinho": {
+      "width": 1178,
+      "height": 1452,
+      "widths": [
+        480,
+        800,
+        1178
+      ],
+      "base": "/media/img/praia-flamenguinho",
+      "color": "rgb(40, 72, 72)"
+    },
+    "lancha-praia": {
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        480,
+        800,
+        1200
+      ],
+      "base": "/media/img/lancha-praia",
+      "color": "rgb(104, 152, 216)"
+    },
+    "lancha-popa": {
+      "width": 922,
+      "height": 1600,
+      "widths": [
+        480,
+        800,
+        922
+      ],
+      "base": "/media/img/lancha-popa",
+      "color": "rgb(8, 88, 152)"
+    },
+    "bordo-1": {
+      "width": 910,
+      "height": 1600,
+      "widths": [
+        480,
+        800,
+        910
+      ],
+      "base": "/media/img/bordo-1",
+      "color": "rgb(40, 120, 200)"
+    },
+    "bordo-2": {
+      "width": 900,
+      "height": 1600,
+      "widths": [
+        480,
+        800,
+        900
+      ],
+      "base": "/media/img/bordo-2",
+      "color": "rgb(8, 8, 8)"
+    },
+    "bordo-3": {
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        480,
+        800,
+        1200
+      ],
+      "base": "/media/img/bordo-3",
+      "color": "rgb(24, 88, 72)"
+    },
+    "bordo-4": {
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        480,
+        800,
+        1200
+      ],
+      "base": "/media/img/bordo-4",
+      "color": "rgb(200, 200, 216)"
+    },
+    "bordo-5": {
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        480,
+        800,
+        1200
+      ],
+      "base": "/media/img/bordo-5",
+      "color": "rgb(40, 40, 40)"
+    },
+    "bordo-6": {
+      "width": 900,
+      "height": 1600,
+      "widths": [
+        480,
+        800,
+        900
+      ],
+      "base": "/media/img/bordo-6",
+      "color": "rgb(168, 184, 216)"
+    },
+    "hero-poster": {
+      "width": 1440,
+      "height": 1080,
+      "widths": [
+        480,
+        720,
+        960,
+        1440
+      ],
+      "base": "/media/img/hero-poster",
+      "color": "rgb(104, 168, 184)"
+    },
+    "video-1-capa": {
+      "width": 464,
+      "height": 832,
+      "widths": [
+        360
+      ],
+      "base": "/media/img/video-1-capa",
+      "color": "rgb(24, 24, 24)"
+    },
+    "video-2-capa": {
+      "width": 576,
+      "height": 1024,
+      "widths": [
+        360,
+        576
+      ],
+      "base": "/media/img/video-2-capa",
+      "color": "rgb(88, 104, 88)"
+    },
+    "video-3-capa": {
+      "width": 576,
+      "height": 1024,
+      "widths": [
+        360,
+        576
+      ],
+      "base": "/media/img/video-3-capa",
+      "color": "rgb(104, 168, 104)"
+    },
+    "video-4-capa": {
+      "width": 576,
+      "height": 1024,
+      "widths": [
+        360,
+        576
+      ],
+      "base": "/media/img/video-4-capa",
+      "color": "rgb(56, 120, 120)"
+    },
+    "video-5-capa": {
+      "width": 576,
+      "height": 1024,
+      "widths": [
+        360,
+        576
+      ],
+      "base": "/media/img/video-5-capa",
+      "color": "rgb(8, 120, 136)"
+    }
+  },
+  "videos": {
+    "passeio-1": {
+      "mp4": "/media/videos/passeio-1.mp4",
+      "webm": "/media/videos/passeio-1.webm",
+      "duration": 37
+    },
+    "passeio-2": {
+      "mp4": "/media/videos/passeio-2.mp4",
+      "webm": "/media/videos/passeio-2.webm",
+      "duration": 21
+    },
+    "passeio-3": {
+      "mp4": "/media/videos/passeio-3.mp4",
+      "webm": "/media/videos/passeio-3.webm",
+      "duration": 29
+    },
+    "passeio-4": {
+      "mp4": "/media/videos/passeio-4.mp4",
+      "webm": "/media/videos/passeio-4.webm",
+      "duration": 21
+    },
+    "passeio-5": {
+      "mp4": "/media/videos/passeio-5.mp4",
+      "webm": "/media/videos/passeio-5.webm",
+      "duration": 42
+    }
+  },
+  "hero": {
+    "hero-sm": {
+      "mp4": "/media/hero/hero-sm.mp4",
+      "webm": null
+    },
+    "hero-lg": {
+      "mp4": "/media/hero/hero-lg.mp4",
+      "webm": null
+    }
+  }
+}

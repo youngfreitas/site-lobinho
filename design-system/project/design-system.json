@@ -1,0 +1,51 @@
+{
+  "v": 3,
+  "assetGroups": {
+    "Logos": {
+      "files": {
+        "passeios-lobinho-selo.jpg": {
+          "blob": "a968ff4c33eec2ee096a5cecac4329b3",
+          "name": "passeios-lobinho-selo.jpg",
+          "size": 160818,
+          "type": "image/jpeg"
+        }
+      },
+      "name": "Logos",
+      "order": [
+        "passeios-lobinho-selo.jpg"
+      ],
+      "tile": "l"
+    }
+  },
+  "blobs": {},
+  "createdOnFiles": {
+    "at": "2026-10-16T03:20:00Z",
+    "v": 1
+  },
+  "docs": {
+    "sections": []
+  },
+  "groups": [
+    "Logos"
+  ],
+  "lastChange": {
+    "at": "2026-10-16T03:20:00Z",
+    "by": "Thiago",
+    "note": "Sistema inicial criado a partir do selo da marca",
+    "via": "Claude (chat)"
+  },
+  "layout": "files",
+  "libraries": [
+    {
+      "name": "react",
+      "version": "18"
+    },
+    {
+      "name": "react-dom",
+      "version": "18"
+    }
+  ],
+  "namespace": "Lobinho",
+  "sections": {},
+  "title": "Passeios Lobinho"
+}

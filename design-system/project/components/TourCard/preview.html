@@ -1,0 +1,18 @@
+<!-- @dsCard group="Passeios" height=470 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>TourCard — preview</title>
+<style>.grid { display: flex; flex-wrap: wrap; gap: var(--space-5); padding: var(--space-4); align-items: flex-start; } .grid > * { flex: 1 1 280px; }</style>
+</head>
+<body>
+<div id="root" class="grid"></div>
+<script>
+  var L = window.Lobinho, h = React.createElement;
+  ReactDOM.createRoot(document.getElementById('root')).render(
+    h(React.Fragment, null,
+      h(L.TourCard, { title: 'Roteiro das Praias', duration: '4 horas', departure: 'Saída do píer', description: 'Paradas para banho e mergulho em praias que só se chega de barco.', price: 'R$ 120', badge: 'Mais procurado' }),
+      h(L.TourCard, { title: 'Pôr do Sol', duration: '2 horas', departure: 'Saída do píer', description: 'Fim de tarde no mar, com a volta já com as luzes da cidade.', price: 'R$ 90', badge: 'Últimas vagas', badgeTone: 'alerta' }))
+  );
+</script>
+</body>
+</html>

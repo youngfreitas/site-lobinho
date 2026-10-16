@@ -1,0 +1,10 @@
+{
+  "name": "Lobinho Passeios de Lancha",
+  "short_name": "Lobinho",
+  "lang": "pt-BR",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#f5fafe",
+  "theme_color": "#0a2350",
+  "icons": [{ "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }]
+}

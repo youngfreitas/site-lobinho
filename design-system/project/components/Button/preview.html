@@ -1,0 +1,22 @@
+<!-- @dsCard group="Ações" height=150 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>Button — preview</title></head>
+<body>
+<div id="root"></div>
+<script>
+  var L = window.Lobinho, h = React.createElement;
+  ReactDOM.createRoot(document.getElementById('root')).render(
+    h(React.Fragment, null,
+      h('div', { className: 'lb-row' },
+        h(L.Button, null, 'Reservar'),
+        h(L.Button, { variant: 'secondary' }, 'Ver roteiro'),
+        h(L.Button, { variant: 'ghost' }, 'Cancelar')),
+      h('div', { className: 'lb-row' },
+        h(L.Button, { size: 'sm' }, 'Reservar'),
+        h(L.Button, { size: 'lg' }, 'Reservar passeio'),
+        h(L.Button, { disabled: true }, 'Esgotado')))
+  );
+</script>
+</body>
+</html>

@@ -1,0 +1,152 @@
+/* Passeios Lobinho — gerado de design-system/project/tokens.json por scripts/build-tokens.mjs. Não edite. */
+
+@font-face {
+  font-family: "Marcellus";
+  src: url("../../design-system/project/fonts/Marcellus-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Figtree";
+  src: url("../../design-system/project/fonts/Figtree-Variable.woff2") format("woff2");
+  font-weight: 300 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  color-scheme: light;
+  --espuma: #f5fafe;
+  --espuma-elevada: #ffffff;
+  --linha: #cfdeee;
+  --tinta: #0a2350;
+  --tinta-suave: #4a6283;
+  --lancha: #1557c0;
+  --lancha-forte: #0e449b;
+  --sobre-lancha: #ffffff;
+  --marinho: #0a2350;
+  --sobre-marinho: #f5fafe;
+  --oceano: #1a97c7;
+  --ceu: #aae4fa;
+  --ceu-suave: #e3f4fc;
+  --sucesso: #1f7a4d;
+  --sucesso-suave: #def3e8;
+  --alerta: #9a5b00;
+  --alerta-suave: #fdf0d5;
+  --erro: #b42318;
+  --erro-suave: #fde5e2;
+  --foco: var(--lancha);
+  --link: var(--lancha);
+  --sombra-cartao: 0 1px 2px rgba(10,35,80,0.06), 0 8px 24px rgba(10,35,80,0.08);
+  --sombra-flutuante: 0 4px 8px rgba(10,35,80,0.08), 0 16px 40px rgba(10,35,80,0.14);
+  --font-display: "Marcellus", Optima, Candara, Georgia, serif;
+  --font-sans: "Figtree", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-pill: 999px;
+  --display-font-size: 56px;
+  --display-line-height: 60px;
+  --titulo-1-font-size: 36px;
+  --titulo-1-line-height: 42px;
+  --titulo-2-font-size: 24px;
+  --titulo-2-line-height: 30px;
+  --titulo-3-font-size: 20px;
+  --titulo-3-line-height: 28px;
+  --corpo-font-size: 16px;
+  --corpo-line-height: 24px;
+  --corpo-forte-font-size: 16px;
+  --corpo-forte-line-height: 24px;
+  --legenda-font-size: 14px;
+  --legenda-line-height: 20px;
+  --rotulo-font-size: 12px;
+  --rotulo-line-height: 16px;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --espuma: #061a3a;
+  --espuma-elevada: #0c2550;
+  --linha: #1f3d6b;
+  --tinta: #eaf3fc;
+  --tinta-suave: #a3bbd9;
+  --lancha: #6aa8ff;
+  --lancha-forte: #93c0ff;
+  --sobre-lancha: #061a3a;
+  --marinho: #1e4f8f;
+  --sobre-marinho: #f5fafe;
+  --oceano: #3dbbe8;
+  --ceu: #13406f;
+  --ceu-suave: #0e2c55;
+  --sucesso: #5fd39a;
+  --sucesso-suave: #0d3324;
+  --alerta: #f2b94b;
+  --alerta-suave: #3a2a07;
+  --erro: #ff8a7a;
+  --erro-suave: #3d1410;
+  --sombra-cartao: 0 1px 2px rgba(0,0,0,0.4), 0 8px 24px rgba(0,0,0,0.35);
+  --sombra-flutuante: 0 4px 8px rgba(0,0,0,0.45), 0 16px 40px rgba(0,0,0,0.45);
+}
+
+.display {
+  font-family: var(--font-display);
+  font-size: 56px;
+  line-height: 60px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+.titulo-1 {
+  font-family: var(--font-display);
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+.titulo-2 {
+  font-family: var(--font-display);
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+.titulo-3 {
+  font-family: var(--font-sans);
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+}
+.corpo {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.corpo-forte {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.legenda {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.rotulo {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}

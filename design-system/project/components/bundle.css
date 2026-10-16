@@ -1,0 +1,43 @@
+body { margin: 0; font-family: var(--font-sans); background: var(--espuma); color: var(--tinta); -webkit-font-smoothing: antialiased; }
+.lb-row { display: flex; flex-wrap: wrap; gap: var(--space-3); align-items: center; padding: var(--space-4); }
+
+/* Button */
+.lb-btn { font: inherit; font-weight: 600; display: inline-flex; align-items: center; justify-content: center; gap: var(--space-2); border-radius: var(--radius-pill); border: 1.5px solid transparent; cursor: pointer; white-space: nowrap; transition: background-color .15s, border-color .15s, color .15s; }
+.lb-btn-sm { height: 32px; padding: 0 var(--space-4); font-size: 14px; }
+.lb-btn-md { height: 44px; padding: 0 var(--space-5); font-size: 16px; }
+.lb-btn-lg { height: 52px; padding: 0 var(--space-6); font-size: 17px; }
+.lb-btn-block { display: flex; width: 100%; }
+.lb-btn-primary { background: var(--lancha); color: var(--sobre-lancha); }
+.lb-btn-primary:hover { background: var(--lancha-forte); }
+.lb-btn-secondary { background: var(--espuma-elevada); color: var(--lancha); border-color: var(--lancha); }
+.lb-btn-secondary:hover { background: var(--ceu-suave); }
+.lb-btn-ghost { background: transparent; color: var(--lancha); }
+.lb-btn-ghost:hover { background: var(--ceu-suave); }
+.lb-btn:focus-visible { outline: none; box-shadow: 0 0 0 2px var(--espuma), 0 0 0 4px var(--foco); }
+.lb-btn:disabled { cursor: not-allowed; background: var(--linha); border-color: var(--linha); color: var(--tinta-suave); }
+
+/* Badge */
+.lb-badge { display: inline-flex; align-items: center; height: 24px; padding: 0 var(--space-3); border-radius: var(--radius-pill); font-size: 12px; line-height: 16px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.lb-badge-ceu { background: var(--ceu-suave); color: var(--lancha); }
+.lb-badge-lancha { background: var(--lancha); color: var(--sobre-lancha); }
+.lb-badge-marinho { background: var(--marinho); color: var(--sobre-marinho); }
+.lb-badge-sucesso { background: var(--sucesso-suave); color: var(--sucesso); }
+.lb-badge-alerta { background: var(--alerta-suave); color: var(--alerta); }
+.lb-badge-erro { background: var(--erro-suave); color: var(--erro); }
+
+/* TourCard */
+.lb-tour { max-width: 360px; background: var(--espuma-elevada); border: 1px solid var(--linha); border-radius: var(--radius-lg); box-shadow: var(--sombra-cartao); overflow: hidden; display: flex; flex-direction: column; }
+.lb-tour-media { position: relative; aspect-ratio: 2 / 1; background: var(--ceu); }
+.lb-tour-media img, .lb-tour-wave { display: block; width: 100%; height: 100%; object-fit: cover; }
+.lb-w-sky { fill: var(--ceu); }
+.lb-w-ring { fill: none; stroke: var(--espuma-elevada); stroke-width: 8; opacity: .55; }
+.lb-w-sea { fill: var(--oceano); }
+.lb-w-foam { stroke: var(--espuma-elevada); stroke-width: 4; stroke-linecap: round; }
+.lb-tour-badge { position: absolute; top: var(--space-3); left: var(--space-3); }
+.lb-tour-body { padding: var(--space-5); display: flex; flex-direction: column; gap: var(--space-2); }
+.lb-tour-title { margin: 0; font-family: var(--font-display); font-weight: 400; font-size: 24px; line-height: 30px; letter-spacing: .03em; color: var(--tinta); }
+.lb-tour-meta { margin: 0; font-size: 14px; line-height: 20px; font-weight: 500; color: var(--tinta-suave); }
+.lb-tour-desc { margin: 0; font-size: 16px; line-height: 24px; color: var(--tinta); }
+.lb-tour-foot { display: flex; align-items: flex-end; justify-content: space-between; gap: var(--space-3); margin-top: var(--space-3); }
+.lb-tour-price { margin: 0; display: flex; flex-direction: column; font-size: 14px; line-height: 18px; color: var(--tinta-suave); }
+.lb-tour-price strong { font-size: 22px; line-height: 28px; font-weight: 700; color: var(--tinta); }

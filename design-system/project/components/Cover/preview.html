@@ -1,0 +1,62 @@
+<!-- @dsCard height=300 -->
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Passeios Lobinho</title>
+<style>
+  html, body { margin:0; height:100%; }
+  body { background:var(--espuma); color:var(--tinta); font-family:var(--font-sans); overflow:hidden; }
+  .cover { position:relative; height:300px; overflow:hidden; }
+  .art { position:absolute; top:0; left:480px; width:480px; height:300px; overflow:hidden; }
+  .art svg { display:block; width:480px; height:300px; }
+  .lancha { fill:var(--lancha); }
+  .marinho { fill:var(--marinho); }
+  .oceano { fill:var(--oceano); }
+  .ceu { fill:var(--ceu); }
+  .blk { rx:var(--radius-lg); }
+  .ring { fill:none; stroke-width:8px; }
+  .ring.mar { stroke:var(--oceano); }
+  .ring.espuma { stroke:var(--espuma); }
+  .words { position:absolute; left:var(--space-6); bottom:var(--space-6); max-width:440px; }
+  .name { margin:0; font-family:var(--font-display); font-weight:400; font-size:88px; line-height:.95; letter-spacing:.01em; color:var(--tinta); }
+  .tag { margin:var(--space-3) 0 0 4px; font-size:14px; line-height:20px; color:var(--tinta-suave); }
+</style>
+</head>
+<body>
+<div class="cover">
+<div class="art" aria-hidden="true">
+<svg viewBox="0 0 480 300" width="480" height="300">
+<!--
+  blocks      lancha 192×248 bled off the top (the royal ring, largest) · marinho 240×176 bleeding off the right (the lettering outline) · oceano 208×48 pill · ceu 192×32 pill — ≈40% of 960×300
+  arrangement one tall lancha slab with satellites; oceano pill and marinho block stacked right of it with a space-5 gutter; ceu pill under the slab
+  pattern     concentric rings, from the circular selo (anel royal + aro prateado): four oceano rings radiating from the marinho block's corner, two espuma rings cut into the slab
+  scales      sides in space-2 multiples; gutters space-4 / space-5; ring pitch space-7 (48); ring stroke space-2; corners radius-lg, pills rx half the short side
+-->
+<defs>
+  <clipPath id="clipMarinho"><rect x="240" y="96" width="256" height="176" rx="20"/></clipPath>
+  <clipPath id="clipLancha"><rect x="32" y="-24" width="192" height="248" rx="20"/></clipPath>
+</defs>
+<rect class="lancha blk" x="32" y="-24" width="192" height="248" rx="20"/>
+<g clip-path="url(#clipLancha)">
+  <circle class="ring espuma" cx="128" cy="96" r="48"/>
+  <circle class="ring espuma" cx="128" cy="96" r="80"/>
+</g>
+<rect class="ceu" x="32" y="240" width="192" height="32" rx="16"/>
+<rect class="oceano" x="240" y="24" width="208" height="48" rx="24"/>
+<rect class="marinho blk" x="240" y="96" width="256" height="176" rx="20"/>
+<g clip-path="url(#clipMarinho)">
+  <circle class="ring mar" cx="240" cy="272" r="48"/>
+  <circle class="ring mar" cx="240" cy="272" r="96"/>
+  <circle class="ring mar" cx="240" cy="272" r="144"/>
+  <circle class="ring mar" cx="240" cy="272" r="192"/>
+</g>
+</svg>
+</div>
+<div class="words">
+<h1 class="name">Passeios<br>Lobinho</h1>
+<p class="tag">Passeios de lancha: mar azul, gente boa a bordo.</p>
+</div>
+</div>
+</body>
+</html>

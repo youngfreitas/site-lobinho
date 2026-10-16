@@ -1,0 +1,20 @@
+<!-- @dsCard group="Status" height=64 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>Badge — preview</title></head>
+<body>
+<div id="root" class="lb-row"></div>
+<script>
+  var L = window.Lobinho, h = React.createElement;
+  ReactDOM.createRoot(document.getElementById('root')).render(
+    h(React.Fragment, null,
+      h(L.Badge, null, 'Família'),
+      h(L.Badge, { tone: 'lancha' }, 'Mais procurado'),
+      h(L.Badge, { tone: 'marinho' }, 'Novo'),
+      h(L.Badge, { tone: 'sucesso' }, 'Vagas abertas'),
+      h(L.Badge, { tone: 'alerta' }, 'Últimas vagas'),
+      h(L.Badge, { tone: 'erro' }, 'Esgotado'))
+  );
+</script>
+</body>
+</html>
